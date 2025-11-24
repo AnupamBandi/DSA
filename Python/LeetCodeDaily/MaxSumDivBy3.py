@@ -93,6 +93,17 @@ def main():
 
     print("Input:", nums)
     print("Max sum divisible by 3:", result)
+    
+    
+    # dp = [0,float('-inf'),float('-inf')]
+    #     for n in nums:
+    #         newdp = dp[:]
+    #         r = n%3
+    #         for rem in range 3:
+    #             new_rem = (rem+r)%3
+    #             newdp[new_rem] = max(newdp[new_rem],newdp[rem]+ n)
+    #         dp = newdp
+    #     return dp[0]
 
 
 if __name__ == "__main__":
